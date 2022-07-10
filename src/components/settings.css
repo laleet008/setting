@@ -1,0 +1,111 @@
+.container {
+  background-color: rgb(35, 34, 34);
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  color: rgb(215, 213, 213);
+
+}
+
+h1,
+
+h3,
+h4,
+h5,
+h6,
+p {
+color: white !important;
+
+}
+
+
+
+.wrapper {
+  height: 100vh;
+  width: 380px;
+  border-left: 1px solid gray;
+}
+
+/* .wrapper hr.hr {
+  border-top: 1px solid rgb(136, 0, 0);
+} */
+
+.profile-container {
+  padding: 20px 30px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.profile-container img {
+  height: 210px;
+  width: 210px;
+  border-radius: 10px;
+}
+
+.profile-personal-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-self: flex-start;
+}
+.active-status {
+  margin: 15px 0;
+}
+.profile-personal-details button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: rgb(7, 96, 204);
+  font-size: 16px;
+}
+
+.profile-time {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0;
+}
+
+.profile-time svg {
+  font-size: 20px;
+}
+
+.status {
+  margin-top: 15px;
+}
+.status button {
+  border: 1px solid gray;
+  /* outline: none; */
+  background: none;
+  color: rgb(215, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact {
+  margin: 15px 20px 0px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.contact-box p {
+  color: rgb(185, 185, 185);
+}

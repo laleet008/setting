@@ -1,0 +1,21 @@
+.edit-button {
+  background-color: none;
+  border: none;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: transparent;
+  border: none;
+  color: rgb(9, 108, 231);
+}
+
+
+.modal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-between;
+  color: black;
+}
+
